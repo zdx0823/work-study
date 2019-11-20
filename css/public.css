@@ -1,0 +1,38 @@
+body {
+  padding-top: 70px;
+}
+
+
+._img {
+  display: block;
+  width: 100%;
+}
+
+._clearfix {
+  zoom: 1;
+}
+._clearfix:after {
+  content: '';
+  display: block;
+  clear: both;
+  vertical-align: middle;
+}
+
+._marginRowBoth {
+  margin: 0 10px;
+}
+
+._marginNone {
+  margin: 0;
+}
+
+._paddingNone {
+  padding: 0;
+}
+
+
+._copyright {
+  line-height: 28px;
+  color: #999;
+  text-align: center;
+}

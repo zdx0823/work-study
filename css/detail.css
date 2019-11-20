@@ -1,0 +1,15 @@
+._profile {
+    width: 58px;
+    height: 58px;
+}
+
+.color888 {
+    color: #888;
+}
+
+._content {
+    line-height: 2;
+    font-size: 16px;
+    color: #333;
+    text-indent: 2em;
+}
