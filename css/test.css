@@ -1,0 +1,49 @@
+body {
+  display: block; }
+
+.item1 {
+  width: 2em; }
+
+.item2 {
+  width: 4em; }
+
+.item3 {
+  width: 6em; }
+
+.test1 {
+  width: 2em; }
+
+.test2 {
+  width: 4em; }
+
+.test3 {
+  width: 6em; }
+
+.test4 {
+  width: 8em; }
+
+.css-a {
+  background: #333; }
+
+.css-b {
+  background: #333; }
+
+.css-c {
+  background: #333; }
+
+.css-d {
+  background: #333; }
+
+.css-e {
+  background: #333; }
+
+.css-f {
+  background: #333; }
+
+.css-g {
+  background: #333; }
+
+.bzz {
+  content: "2333"; }
+
+/*# sourceMappingURL=test.css.map */

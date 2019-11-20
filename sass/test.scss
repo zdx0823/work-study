@@ -1,0 +1,41 @@
+$show: block;
+$hide: none;
+
+@mixin toggleShow ($boolean) {
+    @if $boolean {
+        display: $show;
+    } @else {
+        display: $hide;
+    }
+}
+
+body {
+    @include toggleShow(true);
+}
+
+
+@for $i from 1 through 3 {
+    .item#{$i} {
+        width: 2em * $i
+    }
+}
+
+$b: 1;
+@while $b < 5 {
+    .test#{$b} {
+        width: 2em * $b;
+    }
+    $b: $b + 1
+}
+
+
+$list: a,b,c,d,e,f,g;
+@each  $item in $list {
+    .css-#{$item} {
+        background: #333;
+    }
+}
+
+.bzz {
+    content: quote('2333')
+}
